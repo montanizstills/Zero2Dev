@@ -10,4 +10,4 @@ def hello_world():
 
 if __name__ == '__main__':
     # app.run(ssl_context=('./zero2dev-cert.pem', './zero2dev.pem'))
-    app.run()
+    app.run(host="0.0.0.0")
