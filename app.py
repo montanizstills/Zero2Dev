@@ -9,7 +9,7 @@ def hello_world():
     return 'Hello Zero2Dev!'
 
 
-@app.route('/zero2dev/jira/webhooks/newUserAccepted', methods=["GET"])
+@app.route('/zero2dev/jira/webhooks/newUserAccepted', methods=["POST"])
 def user_accepted():
     return '\n Zero2Dev has just confirmed a new user. \n'
 
