@@ -7,8 +7,9 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!'
 
+
 @app.route('/zero2dev/jira/webhooks/newUserAccepted', methods=["GET"])
-def hello_world():
+def user_accepted():
     return '\n Zero2Dev has just confirmed a new user. \n'
 
 
