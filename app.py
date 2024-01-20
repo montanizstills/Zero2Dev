@@ -3,9 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/hello-world', methods=["GET"])
+@app.route('/zero2dev/hello-world', methods=["GET"])
 def hello_world():
-    return 'Hello World!'
+    return 'Hello Zero2Dev!'
 
 
 @app.route('/zero2dev/jira/webhooks/newUserAccepted', methods=["GET"])
